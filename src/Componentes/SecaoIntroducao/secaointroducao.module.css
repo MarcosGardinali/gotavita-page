@@ -2,17 +2,18 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url(../assets/images/imagemfundo.png), repeating-radial-gradient(circle, #02510e, #03390c);
-    background-position: 70% 78%, 0 0;
+    background-image: url('../assets/images/fundodesk.webp');
+    background-position: 50%;
     background-repeat: no-repeat, repeat;
-    background-size: auto, auto;
+    background-size: cover;
     background-attachment: scroll, scroll;
+    padding-bottom: 1.5%;
 }
 
 .secao__introducao__textos {
     display: flex;
     flex-direction: column;
-    margin-top: 7%;
+    margin-top: 3%;
     margin-right: 25%;
     max-width: 30%;
 }
@@ -35,6 +36,11 @@
     line-height: 30px;
 }
 
+.container__primeira__textos{
+    display: flex;
+    flex-direction: column;
+}
+
 .primeira__textos {
     display: flex;
     align-items: center;
@@ -50,4 +56,57 @@
     max-width: 3%;
     height: 100%;
     color: #00F20C;
+}
+
+/*Reponsividade tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo__secao__introducao{
+        background-position: 50% 78%,0 0;
+        background-image: url(../assets/images/imagemfundo.png), repeating-radial-gradient(circle, #02510e, #03390c);
+        background-size: auto, auto;
+    }
+
+    .secao__introducao__textos{
+        max-width: 90%;
+        margin-right: 0;
+        align-items: center;
+    }
+
+    .secao__introducao__textos__titulo{
+        text-align: center;
+    }
+
+    .secao__introducao__textos__subtitulo{
+        text-align: center;
+    }
+
+    .container__primeira__textos{
+        margin-bottom: 50%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo__secao__introducao{
+        background-image: url('../assets/images/imagemfundomobile.png'), repeating-radial-gradient(circle, #02510e, #03390c);
+        background-position: 50% 35%;
+        background-size: auto;
+    }
+
+    .secao__introducao__textos{
+        max-width: 100%;
+        margin-right: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container__primeira__textos{
+        margin-top: 90%;
+        width: 95%;
+        gap: 0.8rem;
+    }
+
+    .primeira__textos{
+        font-size: 0.9rem;
+    }
 }
