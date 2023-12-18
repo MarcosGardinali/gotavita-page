@@ -1,0 +1,46 @@
+.card__beneficios{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+
+.imagens__card__beneficios{
+    width: 50%;
+}
+
+.titulo__card__beneficios{
+    color: #faff00;
+    text-align: center;
+    margin-bottom: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.texto__card__beneficios{
+    font-size: 0.95rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: justify;
+    width: 85%;
+}
+
+/*Responsividade tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card__beneficios{
+      width: 45%;
+    }
+
+    .texto__card__beneficios{
+        font-size: 1.05rem;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .card__beneficios{
+        width: 90%;
+    }
+}

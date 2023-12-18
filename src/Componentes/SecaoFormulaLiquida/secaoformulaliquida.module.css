@@ -1,0 +1,59 @@
+.conteudo__secao__formula__liquida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao__formula__liquida__titulo{
+    color: #000;
+    text-align: center;
+    margin-bottom: 37px;
+    font-size: 1.5rem;
+    line-height: 32px;
+    font-weight: 400;
+    width: 42%;
+}
+
+.container__imagens__formula__liquida{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1%;
+}
+
+.secao__formula__liquida__imagem{
+    width: 35%;
+}
+
+/*Responsividade tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .secao__formula__liquida__titulo{
+        width: 90%;
+    }
+
+    .container__imagens__formula__liquida{
+        width: 90%;
+    }
+
+    .secao__formula__liquida__imagem{
+        width: 40%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .secao__formula__liquida__titulo{
+        width: 95%;
+        font-size: 1.2rem;
+    }
+
+    .container__imagens__formula__liquida{
+        width: 95%;
+    }
+
+    .secao__formula__liquida__imagem{
+        width: 45%;
+    }
+}

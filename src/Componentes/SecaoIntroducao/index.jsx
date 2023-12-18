@@ -22,7 +22,7 @@ export default function SecaoIntroducao() {
           <p className={style.primeira__textos}><FaCheck className={style.icone__check} /> Ajuda a diminuir dores nas pernas e costas</p>
           <p className={style.primeira__textos}><FaCheck className={style.icone__check} /> E muito mais...</p>
         </section>
-        <Botao>
+        <Botao width='80'>
           Quero Aproveitar Agora!
         </Botao>
         <img src={selos} alt="Selos de compra segura" width='70%' />

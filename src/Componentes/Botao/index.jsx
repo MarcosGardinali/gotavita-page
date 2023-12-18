@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './botao.module.css';
 
-export default function Botao({ children, link, targetId }) {
+export default function Botao({ children, link, targetId, width }) {
   const scrollToSection = (e) => {
     e.preventDefault();
 
@@ -21,7 +21,7 @@ export default function Botao({ children, link, targetId }) {
   };
 
   return (
-    <a href={link} rel="nofollow" onClick={scrollToSection} className={style.botao}>
+    <a href={link} rel="nofollow" style={{width: `${width}%`}} onClick={scrollToSection} className={style.botao}>
       {children}
     </a>
   );
