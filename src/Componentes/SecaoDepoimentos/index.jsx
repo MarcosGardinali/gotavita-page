@@ -36,7 +36,7 @@ export default function SecaoDepoimentos() {
             <iframe src="https://scripts.converteai.net/e7519c36-4878-4434-9937-c67818f3be86/players/64e97978fc6f580009277213/embed.html" frameborder="0" title='Vídeo Depoimento' className={style.videos__depoimentos}></iframe>
             <iframe src="https://scripts.converteai.net/e7519c36-4878-4434-9937-c67818f3be86/players/64e9795f909f89000a8fb20c/embed.html" frameborder="0" title='Vídeo Depoimento' className={style.videos__depoimentos}></iframe>
         </section>
-        <Botao width={buttonWidth}>
+        <Botao targetId="SecaoComprar" width={buttonWidth}>
             Quero Minha Vitalidade de Volta a Partir de Hoje!
         </Botao>
         <img style={{width: `${imageWidth}%`, height: 'auto'}} src={seloSeguro} alt="Selo de Compra Segura" />

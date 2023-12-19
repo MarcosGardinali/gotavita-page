@@ -46,7 +46,7 @@ export default function SecaoFormula() {
           <CardFormulas imagem={formula4} titulo='Coenzima Q10' texto='A concentração notável da Coenzima Q10 presente no GOTAVITA, combinada com o Óleo de Persea Americana em suas formas mais puras e livres de contaminações, auxilia na oferta de energia ao organismo, pode contribuir para o alívio de dores de cabeça, auxilia na redução do colesterol e pode ter efeitos benéficos no funcionamento do coração.'/>
           <CardFormulas imagem={formula5} titulo='RETINOL (vitamina A):' texto='O retinol auxilia na melhoria da qualidade da pele e pode ter um efeito positivo na redução do embaçamento da visão, auxiliando assim na sensação de rejuvenescimento.'/>
         </section>
-        <Botao width={buttonWidth}>
+        <Botao targetId="SecaoComprar" width={buttonWidth}>
             Sim! Quero Garantir Meu GotaVita
         </Botao>
         <img style={{width: `${imageWidth}%`, height: 'auto'}} src={seloSeguro} alt="Selo de Compra Segura" />

@@ -1,0 +1,57 @@
+.conteudo__secao__melhor__suplemento{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff5d4;
+    background-image: url('../assets/images/fundoidosos.jpg');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2% 0;
+    border-bottom: 1px #e4ebf3;
+}
+
+.container__melhor__suplemento__textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    margin-left: 8%;
+}
+
+.melhor__suplemento__titulo{
+    color: #ff5300;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.melhor__suplemento__textos{
+    color: #000;
+    font-size: 1.2rem;
+    line-height: 34px;
+}
+
+/*Responsividade tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo__secao__melhor__suplemento{
+        background-position: 80% 80%,100% 100%;
+        padding-bottom: 387px;
+    }
+
+    .container__melhor__suplemento__textos{
+        width: 85%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo__secao__melhor__suplemento{
+        background-position: 120% 85%,80% 100%;
+        padding-bottom: 387px;
+    }
+
+    .container__melhor__suplemento__textos{
+        width: 90%;
+    }
+}

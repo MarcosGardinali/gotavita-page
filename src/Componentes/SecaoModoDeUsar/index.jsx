@@ -34,7 +34,7 @@ export default function SecaoModoDeUsar() {
             <img src={modo2} alt="Imagem modo de usar" className={style.modo__imagens}/>
             <img src={modo3} alt="Imagem modo de usar" className={style.modo__imagens}/>
         </section>
-        <Botao width={buttonWidth}>
+        <Botao targetId="SecaoComprar" width={buttonWidth}>
             Quero Experimentar!
         </Botao>
         <img style={{width: `${imageWidth}%`}} src={seloSeguro} alt="Selo de Compra Segura" />

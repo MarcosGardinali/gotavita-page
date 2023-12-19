@@ -1,0 +1,108 @@
+.rodape {
+    background-color: #03390b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0;
+}
+
+.atencao__rodape{
+    color: #faff00;
+    line-height: 26px;
+    font-size: 0.8rem;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container__selos {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5% 0;
+}
+
+.selos__rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.titulo__cards__rodape {
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.imagem__selos {
+    width: 80%;
+}
+
+.rodape__titulo{
+    color: #ebac1e;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 46px;
+}
+
+.rodape__texto{
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: 700;
+    width: 85%;
+}
+
+.container__politicas__termos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ebac1e;;
+}
+
+.politicas__termos{
+    color: #fff;
+    width: 80%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .imagem__logo__rodape{
+        width: 25%;
+        margin-left: 2rem;
+    }
+
+    .selos__rodape{
+        width: 25%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imagem__selos{
+        width: 70%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .container__selos{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .imagem__logo__rodape{
+        width: 85%;
+    }
+
+    .selos__rodape{
+        width: 85%;
+    }
+
+    .imagem__selos{
+        width: 80%;
+    }
+}

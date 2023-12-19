@@ -39,7 +39,7 @@ export default function SecaoBeneficios() {
             <CardBeneficios imagem={imgBeneficio4} titulo='Auxilia no aumento da energia e disposição:' texto='O Gota Vita, por meio de sua fórmula inovadora, auxilia no aumento da energia e disposição dos pacientes, contribuindo para uma vida potencialmente mais ativa e com maior bem-estar.'/>
             <CardBeneficios imagem={imgBeneficio5} titulo='Ingredientes naturais:' texto='GotaVita é um composto natural que auxilia aqueles que enfrentam a diabetes e têm interesse em cuidar da saúde de forma adequada.'/>
         </section>
-        <Botao width={buttonWidth}>
+        <Botao targetId="SecaoComprar" width={buttonWidth}>
             Sim! Quero Garantir Meu GotaVita
         </Botao>
         <img style={{width: `${imageWidth}%`, height: 'auto'}} src={seloSeguro} alt="Selo de Compra Segura" />

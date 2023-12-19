@@ -29,7 +29,7 @@ export default function SecaoFormulaLiquida() {
           <img src={imgComprimido} alt="Imagem de comprimido" className={style.secao__formula__liquida__imagem}/>
           <img src={imgGota} alt="Imagem de conta gotas" className={style.secao__formula__liquida__imagem}/>
         </section>
-        <Botao width={buttonWidth}>
+        <Botao targetId="SecaoComprar" width={buttonWidth}>
             Sim! Quero Garantir Meu Gotavita
         </Botao>
     </main>

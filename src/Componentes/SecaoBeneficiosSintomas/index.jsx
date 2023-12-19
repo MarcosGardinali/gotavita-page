@@ -33,7 +33,7 @@ export default function SecaoBeneficiosSintomas() {
             <img src={beneficio3} alt="Imagem benefício visão embaçada" className={style.beneficios__sintomas__imagens}/>
         </section>
         <p className={style.secao__beneficios__sintomas__texto}>E muito mais!</p>
-        <Botao width={buttonWidth}>
+        <Botao targetId="SecaoComprar" width={buttonWidth}>
             Quero Experimentar!
         </Botao>
         <img style={{width: `${imageWidth}%`}} src={seloSeguro} alt="Selo de Compra Segura" />

@@ -1,0 +1,78 @@
+.conteudo__secao__como__adquirir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo__secao__como__adquirir{
+    color: #ff5300;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.texto__secao__como__adquirir{
+    color: #000;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 30px;
+    width: 70%;
+}
+
+.gif__secao__como__adquirir{
+    width: 65%;
+    height: fit-content;
+}
+
+.container__passos__como__adquirir{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 10%;
+    margin: 2% 0;
+}
+
+.imagens__passos__como__adquirir{
+    width: 20%;
+    height: fit-content;
+}
+
+/*Responsividade tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .texto__secao__como__adquirir{
+        width: 85%;
+    }
+
+    .gif__secao__como__adquirir{
+        width: 85%;
+    }
+
+    .container__passos__como__adquirir{
+        width: 95%;
+    }
+    
+    .imagens__passos__como__adquirir{
+        width: 25%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .texto__secao__como__adquirir{
+        width: 90%;
+    }
+
+    .gif__secao__como__adquirir{
+        width: 95%;
+    }
+
+    .container__passos__como__adquirir{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagens__passos__como__adquirir{
+        width: 85%;
+    }
+}

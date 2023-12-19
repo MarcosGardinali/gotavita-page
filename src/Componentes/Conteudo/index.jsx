@@ -8,6 +8,12 @@ import SecaoFormulaLiquida from '../SecaoFormulaLiquida'
 import SecaoBeneficios from '../SecaoBeneficios'
 import SecaoFormula from '../SecaoFormula'
 import SecaoAtencao from '../SecaoAtencao'
+import SecaoMelhorSuplemento from '../SecaoMelhorSuplemento'
+import SecaoFabricacao from '../SecaoFabricacao'
+import SecaoComprar from '../SecaoComprar'
+import SecaoComoAdquirir from '../SecaoComoAdquirir'
+import SecaoDepoimentosBeneficios from '../SecaoDepoimentosBeneficios'
+import SecaoFaq from '../SecaoFAQ'
 
 export default function Conteudo() {
   return (
@@ -20,6 +26,12 @@ export default function Conteudo() {
       <SecaoBeneficios />
       <SecaoFormula />
       <SecaoAtencao />
+      <SecaoMelhorSuplemento />
+      <SecaoFabricacao />
+      <SecaoComprar />
+      <SecaoComoAdquirir />
+      <SecaoDepoimentosBeneficios />
+      <SecaoFaq />
     </main>
   )
 }
