@@ -1,0 +1,42 @@
+.conteudo__secao__fabricacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 2% 0;
+}
+
+.titulo__secao__fabricacao {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+}
+
+.video__secao__fabricacao {
+    width: 702px;
+    height: 395px;
+}
+
+/*Responsividade tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .titulo__secao__fabricacao {
+        width: 85%;
+        font-size: 1.8rem;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .titulo__secao__fabricacao{
+        width: 95%;
+        font-size: 1.5rem;
+    }
+
+    .video__secao__fabricacao {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: 180px;
+        width: 320px;
+    }
+}

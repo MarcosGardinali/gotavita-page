@@ -1,0 +1,58 @@
+.conteudo__secao__beneficios__sintomas{
+    background-color: #ffeeb6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2% 0;
+}
+
+.secao__beneficios__sintomas__titulo{
+    color: #000;
+    text-align: center;
+    margin-bottom: 6px;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 46px;
+    width: 45%;
+}
+
+.container__beneficios__sintomas{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.beneficios__sintomas__imagens{
+    width: 25%;
+}
+
+.secao__beneficios__sintomas__texto{
+    color: #000;
+    margin-bottom: 28px;
+    font-size: 1.8rem;
+    line-height: 46px;
+}
+
+/*Reponsividade tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .secao__beneficios__sintomas__titulo{
+        width: 95%;
+    }
+
+    .container__beneficios__sintomas{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beneficios__sintomas__imagens{
+        width: 65%;
+    }
+}

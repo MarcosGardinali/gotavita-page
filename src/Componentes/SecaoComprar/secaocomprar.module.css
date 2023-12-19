@@ -1,0 +1,68 @@
+.conteudo__secao__comprar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+}
+
+.secao__comprar__titulo{
+    color: #ff5300;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+}
+
+.secao__comprar__texto{
+    color: #000;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 46px;
+}
+
+.container__valores{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.card__valores{
+    width: 20%;
+    transition: 1s all;
+}
+
+.card__valores:hover{
+    transform: scale(1.07);
+}
+
+.card__valores__imagem{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container__valores{
+        width: 95%;
+    }
+
+    .card__valores{
+        width: 45%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .container__valores{
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+
+    .card__valores{
+        width: 90%;
+    }
+}

@@ -1,0 +1,58 @@
+.conteudo__secao__depoimentos__beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: repeating-radial-gradient(circle,#006e05,#02430c);
+    padding: 1% 0;
+}
+
+.secao__depoimentos__beneficios__titulo{
+    color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.1rem;
+    font-weight: 400;
+    line-height: 46px;
+    width: 60%;
+}
+
+.container__videos__depoimentos__beneficios{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2% 0;
+}
+
+.videos__depoimentos__beneficios{
+    width: 25%;
+    height: 535px;
+    border-radius: 0.5rem;
+}
+
+/*Responsividade tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .secao__depoimentos__beneficios__titulo{
+        width: 90%;
+        font-size: 1.7rem;
+    }
+
+    .videos__depoimentos__beneficios{
+        width: 40%;
+        height: 500px;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .secao__depoimentos__beneficios__titulo{
+        width: 95%;
+        font-size: 1.35rem;
+    }
+
+    .videos__depoimentos__beneficios{
+        width: 75%;
+        height: 500px;
+    }
+}
