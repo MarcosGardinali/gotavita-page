@@ -11,16 +11,16 @@ export default function SecaoComprar() {
       <h3 className={style.secao__comprar__titulo}>Escolha a melhor opção para você!</h3>
       <p className={style.secao__comprar__texto}><strong>Descontos</strong> especiais e até <strong>90 dias</strong> de garantia total!</p>
       <section className={style.container__valores}>
-        <a href='https://bit.ly/46xnNMR' className={style.card__valores}>
+        <a href='https://bit.ly/3tpecdK' className={style.card__valores}>
           <img className={style.card__valores__imagem} src={DezFrascos} alt="Dez Potes" loading="lazy"/>
         </a>
-        <a href='https://bit.ly/3MWzVjw' className={style.card__valores}>
+        <a href='https://bit.ly/3RQvRnW' className={style.card__valores}>
           <img className={style.card__valores__imagem} src={CincoFrascos} alt="Cinco Potes" loading="lazy"/>
         </a>
-        <a href='https://bit.ly/3sIc7cz' className={style.card__valores}>
+        <a href='https://bit.ly/3NAmRRp' className={style.card__valores}>
           <img className={style.card__valores__imagem} src={TresFrascos} alt="Três Potes" loading="lazy"/>
         </a>
-        <a href='https://bit.ly/3RaYmMI' className={style.card__valores}> 
+        <a href='https://bit.ly/3NF3G91' className={style.card__valores}> 
           <img className={style.card__valores__imagem} src={UmFrasco} alt="Um Pote" loading="lazy"/>
         </a>
       </section>
